@@ -1,59 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>titulo do texto</title>
-        <h1 style="color: crimson;">Eliezer anteckievz dos santos</h1>
-        <p>back end...</p>
+<html lang="pt-br">
 
-        <link rel="stylesheet" href="style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesd.css">
+    <title>formulario eliezer</title>
+</head>
 
-
-        <style>
-
-        </style>
-    </head>
-    <body>
-        <form>
-            <div class="caixa-principal">
-                <div class="caixa">
-                    <label> primeiro nome:</label>
-                    <input>
-
-                    </input>
-
-                </div>
-            </div>
-
-            <div class="caixa-principal">
-                <div class="caixa">
-                    <label> segundo nome:</label>
-                    <input>
-
-                    </input>
-
-                </div>
-            </div>
-
-            <div class="caixa-principal">
-                <div class="caixa">
-                    <label> série:</label>
-                    <input>
-
-                    </input>
-
-                </div>
-            </div>
-
-            <div class="caixa-principal">
-                <div class="caixa">
-                    <label> CGM:</label>
-                    <input>
-
-                    </input>
-
-                </div>
+<body>
+    <div class="caixa">
+        <h1 class="caixa_titulo">formulario</h1>
+        <form action="/enviar_dados" class="caixa_formulario">
+            <label for="name">nome</label>
+            <input type="text" name="name" placeholder="seu nome">
+            <label for="name">ultimo nome</label>
+            <input type="text" name="name" placeholder="seu ultimo nome">
+            <label for="Email">seu Email</label>
+            <input type="email" name="email" placeholder="seu @email">
+            <label for="date">sua data de nascimento</label>
+            <input type="date" name="date" placeholder="seu aniversario">
+            <div class="caixa_formulario_botoes">
+                <button type="submit">enviar</button>
+                <button type="reset">apagar</button>
             </div>
         </form>
-    </body>
+    </div>
+</body>
+
+</html>
